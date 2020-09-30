@@ -9,7 +9,7 @@ var id = getUrlVars()["id"].toUpperCase();
 if(id !== null){
 $.ajax({
     type: "POST",
-    url: "https://jbvi.co.uk/api.php",
+    url: "https://ngadribooks.com/api.php",
     data: {"id": id},
     dataType:'JSON',
     success: function(response){
